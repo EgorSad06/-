@@ -4,7 +4,7 @@ from vk_api.keyboard import VkKeyboard, VkKeyboardColor, VkKeyboardButton
 from vk_api.longpoll import VkLongPoll, VkEventType
 
 #Токен, сесии и longpoll
-vk_session = vk_api.VkApi(token="vk1.a.jVe9ajsUIoiGaEB3fpad8t-wKDwT2VkHgrZsIiGTLgrp8zoRMpsqY0x4z1zXkKQm7Tzil-6saWltOq3Hidy_C70CgXoUtKCFVFiOo0oC-Nzr9_CMO1_IjJpiqktGBTLYINM4ZXL6Cxtl4chiKhzyS5cqTwXEqHzDFRTh9CGAxe6tq_OOGfK6AvbIePdgk9X4V2ccN9iSWSkQqFfVTUysww")
+vk_session = vk_api.VkApi(token="TOKEN")
 session_api = vk_session.get_api()
 longpool = VkLongPoll(vk_session)
 
